@@ -232,9 +232,10 @@ position: relative;
     border-radius: 100px;
     left: -200%;
     top: -30%;
+    transition: all 300ms linear;
 }
 .svg-border:hover{
-    background-color: #E4E1E6;
+    background-color: #f99a47;
     cursor: pointer;
 }
 .position{
