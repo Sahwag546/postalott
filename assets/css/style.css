@@ -129,6 +129,11 @@ color: white;
 border-radius: 100px;
 border: none;
 padding: 14px;
+transition: all 300ms linear;
+}
+.btn:hover{
+   background: linear-gradient(83.67deg, #f1a71d 10.02%, #ed8207 90.05%);
+  
 }
 .cursor{
     cursor: pointer;
