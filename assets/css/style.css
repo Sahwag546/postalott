@@ -136,6 +136,7 @@ transition: all 300ms linear;
 }
 .btn-2:hover{
        background: #F5F8FF;
+       transform: scaleY(1.1);
 }
 .cursor{
     cursor: pointer;
