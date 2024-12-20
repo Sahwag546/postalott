@@ -335,8 +335,8 @@ input[type="text"] {
   }
 }
 @media (max-width: 420px) {
-  .gap-15-sm {
-    gap: 15px;
+  .gap-7-sm {
+    gap: 7px;
   }
 }
 
