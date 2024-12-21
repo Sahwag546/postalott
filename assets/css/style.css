@@ -203,7 +203,7 @@ input[type="text"] {
 .line::before {
   content: "or continue with";
   position: absolute;
-  width: 100%;
+  /* width: 100%; */
   left: 0;
   padding-left: 5px;
   padding-right: 5px;
@@ -211,6 +211,7 @@ input[type="text"] {
   left: 32%;
   background: white;
   z-index: 2;
+  width: 117px; 
 }
 .btn-2 {
   padding: 10px 46px 10px 46px;
@@ -234,8 +235,8 @@ input[type="text"] {
  position: absolute;
  height: 100%;
  width: 50%;
- background: blue;
- opacity: 60%;
+ background: linear-gradient(83.67deg, #2194FF 10.02%, #2563EB 90.05%);
+ opacity: 90%;
  top: 0;
  right: 0;
 }
@@ -329,13 +330,17 @@ input[type="text"] {
  position: absolute;
  height: 100%;
  width: 100%;
- background: blue;
- opacity: 60%;
+background: linear-gradient(83.67deg, #2194FF 10.02%, #2563EB 90.05%);
+ opacity: 90%;
  top: 100%;
  right: 0;
 }
 section{
   min-height: unset;
+}
+.py{
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .card-1{
   transform: translateY(350px);
@@ -350,5 +355,44 @@ section{
   }
   .card-1{
     display: none;
+  }
+  .card-2{
+   margin-top: 50px;
+   position: relative;
+   z-index: 2;
+   padding-top: 50px;
+   padding-bottom: 50px;
+  }
+  .blue-img-2::after {
+position: unset;
+}
+.upper-layer{
+  position: relative;
+}
+.upper-layer::after{
+  content: "";
+  position: absolute;
+  background: linear-gradient(83.67deg, #2194FF 10.02%, #2563EB 90.05%);
+ opacity: 90%;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  margin-top: 30px;
+}
+.gap-20{
+  gap: 20px;
+}
+.mx-12{
+  margin-left: 12px;
+  margin-right: 12px;
+}
+}
+@media (max-width:410px) {
+  .card-2{
+    max-width: 280px;
+  }
+  .svg-border{
+    height: 50px;
   }
 }
