@@ -401,25 +401,3 @@ input[type="text"] {
 
 
 
-
-
-.blue-img-right{
-  background-image: url(/assets/image/blue-img-right.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%;
-  width: 50%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-}
-@media (max-width:1225px) {
- .blue-img-right{
-  position: unset;
-  width: 100%;
-  height: 60%;
-  top: 100%;
-  position: absolute;
- }
-}
