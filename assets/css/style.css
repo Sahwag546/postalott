@@ -45,6 +45,9 @@ section {
   background-size: cover;
   background-position: center;
 }
+.py{
+  padding-bottom: 50px;
+}
 .main-heading {
   font-family: "Poppins", sans-serif;
   font-size: 32px;
