@@ -269,7 +269,7 @@ input[type="text"] {
   transition: all 300ms linear;
 }
 .svg-border:hover {
-  background-color: #f99a47;
+  background-color: #c1cff0;
   cursor: pointer;
 }
 .position {
