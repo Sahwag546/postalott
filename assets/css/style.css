@@ -386,6 +386,9 @@ section {
   .gap-7-sm {
     gap: 7px;
   }
+  .blue-img-2{
+  height: 50% !important;
+}
 }
 
 @media (max-width: 380px) {
