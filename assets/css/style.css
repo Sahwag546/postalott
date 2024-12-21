@@ -45,7 +45,7 @@ section {
   background-size: cover;
   background-position: center;
 }
-.py{
+.py {
   padding-bottom: 50px;
 }
 .main-heading {
@@ -110,7 +110,7 @@ input[type="text"] {
   text-decoration-skip-ink: none;
   outline: none;
 }
-.border-none{
+.border-none {
   border: none;
   background: none;
 }
@@ -121,11 +121,11 @@ input[type="text"] {
   background-color: #f5f8ff;
   padding: 13px 16px 13px 16px;
   border-radius: 6px;
-   border: 2px solid #f5f8ff;
-   transition: all 300ms linear;
+  border: 2px solid #f5f8ff;
+  transition: all 300ms linear;
 }
-.label-box:hover{
-    border: 2px solid black;
+.label-box:hover {
+  border: 2px solid black;
 }
 .mt-32 {
   margin-top: 32px;
@@ -226,17 +226,18 @@ input[type="text"] {
 .gap-8 {
   gap: 8px;
 }
-
-.blue-img-2 {
-  background-image: url(/assets/image/blue-img-right.png);
-  width: 50%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  right: 0;
-  top: 0;
-  bottom: 0;
+.blue-img-2{
+  position: relative;
+}
+.blue-img-2::after {
+ content: "";
+ position: absolute;
+ height: 100%;
+ width: 50%;
+ background: blue;
+ opacity: 60%;
+ top: 0;
+ right: 0;
 }
 .center {
   position: absolute;
@@ -246,9 +247,9 @@ input[type="text"] {
 }
 .arrow-1 {
   position: absolute;
- top: 50%;
- left: 50%;
- transform: translate(-90%, -50%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-90%, -50%);
 }
 .w-100 {
   width: 100%;
@@ -279,13 +280,13 @@ input[type="text"] {
   transform: translate(-350%, -300%);
 }
 .position-2 {
- position: absolute;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-350%, -140%);
 }
 .position-3 {
-   position: absolute;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-350%, 40%);
@@ -304,6 +305,11 @@ input[type="text"] {
   padding-left: 12px;
   padding-right: 12px;
 }
+.position-relative{
+  position: relative;
+  z-index: 2;
+}
+
 @media (min-width: 1225px) {
   .col-xl-6 {
     width: 50%;
@@ -311,89 +317,38 @@ input[type="text"] {
     padding-right: 12px;
   }
 }
-@media (max-width: 1225px) {
-  .blue-img-2 {
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 57%;
-    width: 100%;
-    height: 70%;
-  }
+@media (max-width:1225px) {
   .card{
-    margin-left: auto ;
-    margin-right: auto ;
-    max-width: 340px;
-}
-section {
-  min-height: 100%;
-  align-content: center;
-  padding-bottom: 50px;
-  padding-top: 50px;
-}
-
-}
-@media (max-width: 670px) {
-  .d-none-md {
-    display: none;
-  }
-  .d-block-md {
-    display: block;
-  }
-   .blue-img-2 {
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 65%;
-    width: 100%;
-    height: 60% !important;
-  }
-
-  .mx-auto {
     margin-left: auto;
     margin-right: auto;
+    max-width: 340px;
   }
-  .gap-20 {
-    gap: 40px;
-  }
-  .mt-50 {
-    margin-top: 50px;
-  }
-  .blue-img-2 {
-    height: 95%;
-  }
-  .md-flex-col {
+
+.blue-img-2::after {
+ content: "";
+ position: absolute;
+ height: 100%;
+ width: 100%;
+ background: blue;
+ opacity: 60%;
+ top: 100%;
+ right: 0;
+}
+section{
+  min-height: unset;
+}
+.card-1{
+  transform: translateY(350px);
+}
+}
+@media (max-width:768px) {
+  .md-flex-col{
     flex-direction: column;
   }
-  .md-mb-20 {
-    margin-bottom: 20px;
+  .d-block-md{
+    display: block;
   }
-  .btn-2 {
-    margin-top: 10px;
-  }
-  .card-2 {
-    margin-left: 12px;
-    margin-right: 12px;
-  }
-  .size-change {
-    max-width: 400px;
+  .card-1{
+    display: none;
   }
 }
-@media (max-width: 420px) {
-  .gap-7-sm {
-    gap: 7px;
-  }
-  .blue-img-2{
-  height: 50% !important;
-}
-}
-
-@media (max-width: 380px) {
-.line-text{
-    font-size: 11px;
-}
-}
-
-
-
-
