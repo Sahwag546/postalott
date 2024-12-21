@@ -346,7 +346,7 @@ section {
     right: 0;
     top: 65%;
     width: 100%;
-    height: 70% !important;
+    height: 60% !important;
   }
 
   .mx-auto {
@@ -370,9 +370,6 @@ section {
   }
   .btn-2 {
     margin-top: 10px;
-  }
-  .set-md {
-    margin-top: 50px;
   }
   .card-2 {
     margin-left: 12px;
