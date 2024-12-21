@@ -421,7 +421,9 @@ input[type="text"] {
   .card-1 {
     display: none;
   }
-
+.mt-20{
+  margin-top: 20px;
+}
   .card-2 {
     margin-top: 50px;
     position: relative;
