@@ -26,8 +26,8 @@ section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding-left: -12px;
-  padding-right: -12px;
+ margin-left: -12px;
+ margin-right: -12px;
 }
 
 .d-flex {
@@ -382,6 +382,10 @@ input[type="text"] {
     max-width: 340px;
   }
 
+  .mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
   .blue-img-2::after {
     display: none;
   }
