@@ -54,10 +54,6 @@ section {
   background-position: center;
 }
 
-.py {
-  padding-bottom: 50px;
-}
-
 .main-heading {
   font-family: "Poppins", sans-serif;
   font-size: 32px;
@@ -360,6 +356,9 @@ input[type="text"] {
   position: relative;
   z-index: 2;
 }
+.card-3{
+  display: none;
+}
 
 @media (min-width: 1225px) {
   .col-xl-6 {
@@ -381,8 +380,26 @@ input[type="text"] {
     margin-right: auto;
     max-width: 340px;
   }
-
-  .blue-img-2::after {
+  .blue-img-2::after{
+   display: none;
+  }
+  section {
+    min-height: unset;
+  }
+  .card-3{
+    position: relative;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .card-1{
+    display: none;
+  }
+  .upper-layer-2{
+    position: relative;
+    margin-top: 30px;
+  }
+  .upper-layer-2::after{
     content: "";
     position: absolute;
     height: 100%;
@@ -390,28 +407,48 @@ input[type="text"] {
     background: url(/assets/image/blue-img-right.png);
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 90%;
-    top: 100%;
-    right: 0;
+    left: 0;
+    top: 0;
+    z-index: -1;
   }
-
-  section {
-    min-height: unset;
+   .container {
+    padding: 0;
   }
-
-  .py {
-    padding-top: 50px;
-    padding-bottom: 50px;
+  .chid-1{
+    position: relative;
   }
-
-  .card-1 {
-    transform: translateY(350px);
+  .child-2{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .child-3{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%, -50%);
+  }
+    .child-4{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-0%, -50%);
+  }
+  .z-2{
+    z-index: 2;
   }
 }
 
 @media (max-width: 768px) {
   .md-flex-col {
     flex-direction: column;
+  }
+  .card-3{
+    display: none;
   }
 
   .d-block-md {
@@ -425,7 +462,6 @@ input[type="text"] {
   .mt-20 {
     margin-top: 20px;
   }
-
   .card-2 {
     margin-top: 50px;
     position: relative;
@@ -451,6 +487,7 @@ input[type="text"] {
     height: 100%;
     width: 100%;
     top: 0;
+    bottom: 0;
     margin-top: 30px;
   }
 
