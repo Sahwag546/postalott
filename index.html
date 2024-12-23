@@ -1,103 +1,189 @@
-
-<!DOCTYPE html >
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/image/svg/fav-logo.svg" type="image/x-icon">
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/image/svg/fav-logo.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>postalott</title>
-</head>
-<body >
+  </head>
+  <body>
     <section class="bg-img py blue-img-2">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-12 col-xl-6">
-                     <img class="mx-auto d-flex" class="cursor" src="./assets/image/card-logo.png" alt="logo">
-                  <form class="card">
-                    <h1 class="main-heading">
-                        Sign in
-                    </h1>
-                    <p class="content">
-                        Don’t have an account? <span class="color-blue cursor">Register here</span>
-                    </p>
-                    <label class="label-box d-flex align-center gap-10 max-w-340 mt-32 cursor">
-                        <img class="cursor" src="./assets/image/svg/mail.svg" alt="email-box">
-                        <input type="email" placeholder="Email">
-                    </label>
-                      <label class="label-box d-flex align-center gap-10 max-w-340 mt-10 cursor">
-                        <img src="./assets/image/svg/locked.svg" alt="lock">
-                        <input type="password" placeholder="Password" >
-                        <img class="border-none cursor" src="./assets/image/svg/eye-close-line.svg" alt="eye">
-                    </label>
-                    <div class="d-flex align-center justify-content-between pt-12 max-w-340">
-                    <label class="d-flex align-center gap-10 cursor">
-                        <input type="checkbox">
-                        <span class="check-text">Remember me</span>
-                    </label>
-                    <span class="check-text cursor">
-                        Forgot password?
-                    </span>
-                    </div>
-                    <button class="btn cursor max-w-340">
-                        Sign in
-                    </button>
-                    <p class="line-text line max-w-340">
-                        or continue 
-                    </p>
-                    <div class="d-flex justify-content-between max-w-340 gap-8 md-flex-col ">
-                    <a href="https://google.com" target="_blank" class=" w-100 d-flex align-center btn-2 check-text cursor gap-10 ">                 
-                            <img src="./assets/image/svg/google-svg.svg" alt="google">
-                        Google
-                    </a>
-                    <a href="https://facebook.com" target="_blank" class=" w-100 d-flex align-center btn-2 check-text cursor gap-10 md-mb-20">              
-                            <img src="./assets/image/svg/Facebooklogo.svg" alt="facebook">            
-                        Facebook
-                    </a>
-                    </div>
-                  </form>
-                </div>
-                <div class="col-12 col-xl-5 d-flex align-center justify-center position-relative upper-layer upper-layer-2 p-0 flex-grow">
-                    <div class="card-3">
-                        <img class="w-100 child-1" src="./assets/image/circle.png" alt="circle">
-                        <img class="child-2" src="./assets/image/Group.png" alt="group">
-                        <img class="child-3" src="./assets/image/4-lines.png" alt="4-line">
-                        <img class="child-4" src="./assets/image/share-secure-links.png" alt="picture">
-                            <span class="svg-border position z-2">
-                           <a href="https://facebook.com" target="_blank"> <img class="w-100" src="./assets/image/svg/Facebooklogo.svg" alt="facebook"></a>
-                         </span>
-                         <span class="svg-border position-2 z-2">
-                            <a href="https://www.linkedin.com/login" target="_blank"><img class="w-100" src="./assets/image/svg/linkdin.svg" alt="linkdin"></a>
-                         </span>
-                         <span class="svg-border position-3 z-2">
-                           <a href="https://instagram.com" target="_blank"> <img class="w-100" src="./assets/image/svg/Instagram.svg" alt="instagram"></a>
-                         </span>
-                         <span class="svg-border position-4 z-2">
-                           <a href="https://twitter.com" target="_blank"> <img class="w-100" src="./assets/image/svg/twitter.svg" alt="twitter"></a>
-                         </span>
-                    </div>
-                    <div class="card-2">
-                        <span class=" size-change d-none d-block-md set-md mx-auto">
-                            <img class="w-100" src="./assets/image/share-secure-links.png" alt="">
-                        </span>
-                        <div class="d-flex gap-20 mx-auto justify-center mx-12 mt-20">
-                        <span class="svg-border set-position d-none d-block-md">
-                            <a href="https://facebook.com" target="_blank"><img class="w-100" src="./assets/image/svg/Facebooklogo.svg" alt="facebook"></a>
-                        </span>
-                        <span class="svg-border set-position d-none d-block-md">
-                            <a href="https://instagram.com" target="_blank"><img class="w-100" src="./assets/image/svg/Instagram.svg" alt="instagram"></a>
-                        </span>
-                         <span class="svg-border set-position d-none d-block-md">
-                            <a href="https://www.linkedin.com/login" target="_blank"><img class="w-100" src="./assets/image/svg/linkdin.svg" alt="linkdin"></a>
-                        </span>
-                        <span class="svg-border set-position d-none d-block-md">
-                            <a href="https://twitter.com" target="_blank"><img class="w-100" src="./assets/image/svg/twitter.svg" alt="twitter"></a>
-                        </span>
-                        </div>
-                    </div>  
-                </div>
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-12 col-xl-6">
+            <img
+              class="mx-auto d-flex"
+              class="cursor"
+              src="./assets/image/card-logo.png"
+              alt="logo"
+            />
+            <form class="card">
+              <h1 class="main-heading">Sign in</h1>
+              <p class="content">
+                Don’t have an account?
+                <span class="color-blue cursor">Register here</span>
+              </p>
+              <label
+                class="label-box d-flex align-center gap-10 max-w-340 mt-32 cursor"
+              >
+                <img
+                  class="cursor"
+                  src="./assets/image/svg/mail.svg"
+                  alt="email-box"
+                />
+                <input type="email" placeholder="Email" />
+              </label>
+              <label
+                class="label-box d-flex align-center gap-10 max-w-340 mt-10 cursor"
+              >
+                <img src="./assets/image/svg/locked.svg" alt="lock" />
+                <input type="password" placeholder="Password" />
+                <img
+                  class="border-none cursor"
+                  src="./assets/image/svg/eye-close-line.svg"
+                  alt="eye"
+                />
+              </label>
+              <div
+                class="d-flex align-center justify-content-between pt-12 max-w-340"
+              >
+                <label class="d-flex align-center gap-10 cursor">
+                  <input type="checkbox" />
+                  <span class="check-text">Remember me</span>
+                </label>
+                <span class="check-text cursor"> Forgot password? </span>
+              </div>
+              <button class="btn cursor max-w-340">Sign in</button>
+              <p class="line-text line max-w-340">or continue</p>
+              <div
+                class="d-flex justify-content-between max-w-340 gap-8 md-flex-col"
+              >
+                <a
+                  href="https://google.com"
+                  target="_blank"
+                  class="w-100 d-flex align-center btn-2 check-text cursor gap-10"
+                >
+                  <img src="./assets/image/svg/google-svg.svg" alt="google" />
+                  Google
+                </a>
+                <a
+                  href="https://facebook.com"
+                  target="_blank"
+                  class="w-100 d-flex align-center btn-2 check-text cursor gap-10 md-mb-20"
+                >
+                  <img
+                    src="./assets/image/svg/Facebooklogo.svg"
+                    alt="facebook"
+                  />
+                  Facebook
+                </a>
+              </div>
+            </form>
+          </div>
+          <div
+            class="col-12 col-xl-5 d-flex align-center justify-center position-relative upper-layer upper-layer-2 p-0 flex-grow"
+          >
+            <div class="card-3">
+              <img
+                class="w-100 child-1"
+                src="./assets/image/circle.png"
+                alt="circle"
+              />
+              <img class="child-2" src="./assets/image/Group.png" alt="group" />
+              <img
+                class="child-3"
+                src="./assets/image/4-lines.png"
+                alt="4-line"
+              />
+              <img
+                class="child-4"
+                src="./assets/image/share-secure-links.png"
+                alt="picture"
+              />
+              <span class="svg-border position z-2">
+                <a href="https://facebook.com" target="_blank">
+                  <img
+                    class="w-100"
+                    src="./assets/image/svg/Facebooklogo.svg"
+                    alt="facebook"
+                /></a>
+              </span>
+              <span class="svg-border position-2 z-2">
+                <a href="https://www.linkedin.com/login" target="_blank"
+                  ><img
+                    class="w-100"
+                    src="./assets/image/svg/linkdin.svg"
+                    alt="linkdin"
+                /></a>
+              </span>
+              <span class="svg-border position-3 z-2">
+                <a href="https://instagram.com" target="_blank">
+                  <img
+                    class="w-100"
+                    src="./assets/image/svg/Instagram.svg"
+                    alt="instagram"
+                /></a>
+              </span>
+              <span class="svg-border position-4 z-2">
+                <a href="https://twitter.com" target="_blank">
+                  <img
+                    class="w-100"
+                    src="./assets/image/svg/twitter.svg"
+                    alt="twitter"
+                /></a>
+              </span>
             </div>
+            <div class="card-2">
+              <span class="size-change d-none d-block-md set-md mx-auto">
+                <img
+                  class="w-100"
+                  src="./assets/image/share-secure-links.png"
+                  alt=""
+                />
+              </span>
+              <div class="d-flex gap-20 mx-auto justify-center mx-12 mt-20">
+                <span class="svg-border set-position d-none d-block-md">
+                  <a href="https://facebook.com" target="_blank"
+                    ><img
+                      class="w-100"
+                      src="./assets/image/svg/Facebooklogo.svg"
+                      alt="facebook"
+                  /></a>
+                </span>
+                <span class="svg-border set-position d-none d-block-md">
+                  <a href="https://instagram.com" target="_blank"
+                    ><img
+                      class="w-100"
+                      src="./assets/image/svg/Instagram.svg"
+                      alt="instagram"
+                  /></a>
+                </span>
+                <span class="svg-border set-position d-none d-block-md">
+                  <a href="https://www.linkedin.com/login" target="_blank"
+                    ><img
+                      class="w-100"
+                      src="./assets/image/svg/linkdin.svg"
+                      alt="linkdin"
+                  /></a>
+                </span>
+                <span class="svg-border set-position d-none d-block-md">
+                  <a href="https://twitter.com" target="_blank"
+                    ><img
+                      class="w-100"
+                      src="./assets/image/svg/twitter.svg"
+                      alt="twitter"
+                  /></a>
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
-</body>
+  </body>
 </html>
