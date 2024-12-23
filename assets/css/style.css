@@ -356,7 +356,8 @@ input[type="text"] {
   position: relative;
   z-index: 2;
 }
-.card-3{
+
+.card-3 {
   display: none;
 }
 
@@ -380,26 +381,32 @@ input[type="text"] {
     margin-right: auto;
     max-width: 340px;
   }
-  .blue-img-2::after{
-   display: none;
+
+  .blue-img-2::after {
+    display: none;
   }
+
   section {
     min-height: unset;
   }
-  .card-3{
+
+  .card-3 {
     position: relative;
     display: block;
     margin-top: 30px;
     margin-bottom: 30px;
   }
-  .card-1{
+
+  .card-1 {
     display: none;
   }
-  .upper-layer-2{
+
+  .upper-layer-2 {
     position: relative;
     margin-top: 30px;
   }
-  .upper-layer-2::after{
+
+  .upper-layer-2::after {
     content: "";
     position: absolute;
     height: 100%;
@@ -411,34 +418,40 @@ input[type="text"] {
     top: 0;
     z-index: -1;
   }
-   .container {
+
+  .container {
     padding: 0;
   }
-  .chid-1{
+
+  .chid-1 {
     position: relative;
   }
-  .child-2{
+
+  .child-2 {
     position: absolute;
     z-index: 2;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  .child-3{
+
+  .child-3 {
     position: absolute;
     z-index: 2;
     top: 50%;
     left: 50%;
     transform: translate(-90%, -50%);
   }
-    .child-4{
+
+  .child-4 {
     position: absolute;
     z-index: 2;
     top: 50%;
     left: 50%;
     transform: translate(-0%, -50%);
   }
-  .z-2{
+
+  .z-2 {
     z-index: 2;
   }
 }
@@ -447,7 +460,8 @@ input[type="text"] {
   .md-flex-col {
     flex-direction: column;
   }
-  .card-3{
+
+  .card-3 {
     display: none;
   }
 
@@ -462,6 +476,7 @@ input[type="text"] {
   .mt-20 {
     margin-top: 20px;
   }
+
   .card-2 {
     margin-top: 50px;
     position: relative;
