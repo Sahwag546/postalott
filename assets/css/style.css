@@ -274,28 +274,8 @@ input[type="text"] {
   right: 0;
 }
 
-.center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.arrow-1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-90%, -50%);
-}
-
 .w-100 {
   width: 100%;
-}
-
-.arrow-2 {
-  display: flex;
-  margin-left: 250px;
-  position: relative;
 }
 
 .svg-border {
@@ -357,9 +337,37 @@ input[type="text"] {
   z-index: 2;
 }
 
-.card-3 {
-  display: none;
-}
+  .chid-1 {
+    position: relative;
+  }
+
+  .child-2 {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .child-3 {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%, -50%);
+  }
+
+  .child-4 {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-0%, -50%);
+  }
+
+  .z-2 {
+    z-index: 2;
+  }
 
 @media (min-width: 1225px) {
   .col-xl-6 {
@@ -428,37 +436,6 @@ input[type="text"] {
     max-width: unset;
   }
 
-  .chid-1 {
-    position: relative;
-  }
-
-  .child-2 {
-    position: absolute;
-    z-index: 2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .child-3 {
-    position: absolute;
-    z-index: 2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-90%, -50%);
-  }
-
-  .child-4 {
-    position: absolute;
-    z-index: 2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-0%, -50%);
-  }
-
-  .z-2 {
-    z-index: 2;
-  }
 }
 
 @media (max-width: 768px) {
@@ -508,7 +485,7 @@ input[type="text"] {
     width: 100%;
     top: 0;
     bottom: 0;
-    margin-top: 30px;
+    /* margin-top: 30px; */
   }
 
   .gap-20 {
