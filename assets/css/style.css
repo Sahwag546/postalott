@@ -425,6 +425,7 @@ input[type="text"] {
 
   .container {
     padding: 0;
+    max-width: unset;
   }
 
   .chid-1 {
